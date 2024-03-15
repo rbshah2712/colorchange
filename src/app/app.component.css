@@ -1,0 +1,7 @@
+:root {
+    --hoverColor: black;
+}
+
+button:hover {
+    background-color: var(--hoverColor, red);
+}

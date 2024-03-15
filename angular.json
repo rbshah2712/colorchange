@@ -51,7 +51,8 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
+              "namedChunks": true,
+              "aot":false
             }
           },
           "defaultConfiguration": "production"
@@ -94,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "0a98b04d-7465-481d-aa39-11a6aa43cb0e"
   }
 }

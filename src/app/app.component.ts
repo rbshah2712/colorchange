@@ -5,6 +5,18 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'colorchange';
+  theme :string = '';
+  document: any;
+
+  firstname = "ruchi";
+  check = true;
+  hoverColorVar: string = '';
+
+  changecolor(color:string){
+    this.theme = color; 
+    
+  }
 }

@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+.theme-default{
+    background-color: black;
+}
+.theme-dark{
+    background-color:darkgray;
+}
+.theme-light{
+    background-color: whitesmoke;
+}
+.theme-red{
+    background-color: red;
+}
+.theme-green{
+    background-color: green;
+}
