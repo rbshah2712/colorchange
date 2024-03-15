@@ -22,7 +22,7 @@ export class AppComponent {
   }
 
   getColor(){
-    this.newcolor = 'white';
+    this.newcolor = 'blue';
   }
 
 
