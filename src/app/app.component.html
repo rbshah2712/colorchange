@@ -21,5 +21,6 @@
   Ruchi is Here again.
 </p>
 
-<button type="button" [style.--hoverColor]="hoverColorVar">Press Me</button>
+<button type="button" (click) = "getColor()">Press Me</button>
+<button type="button" [ngStyle] = "{'background-color':newcolor}">Button 2</button>
 </div>

@@ -14,9 +14,16 @@ export class AppComponent {
   firstname = "ruchi";
   check = true;
   hoverColorVar: string = '';
+  newcolor = 'cyan';
 
   changecolor(color:string){
     this.theme = color; 
     
   }
+
+  getColor(){
+    this.newcolor = 'white';
+  }
+
+
 }
